@@ -1,0 +1,17 @@
+import React, { Component } from 'react';
+import { StyleSheet, View } from 'react-native';
+
+export default class App extends Component<Props> {
+	render() {
+		return (
+			<View style = {style.mainView}>
+				<View style = {style.firebrick} />
+				<View style = {style.coral} />
+				<View style = {style.lightseagreen} />
+				<View style = {style.lightslategray} />
+				<View style = {style.olive} />
+				<View style = {style.thistle} />
+			</View>
+		);
+	}
+}
